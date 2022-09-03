@@ -27,11 +27,11 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "可爱欢欢子",
+      name: "老婆0",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "223697b3b89764622a7fd128c933b637",
+      id: "oSSzL5whwvxC2K0LrUm0h8W94S2A",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "abi2kqIvwsZv8Gemwgn63fOMa4i4vrmiz_rKEobGgT4",
+      useTemplateId: "dBfcC2rIXTDhycFS0u9MsAekZ8hsBrguI6qF-3I5vFA",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://weibo.com"
     }, 
@@ -42,7 +42,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "	abi2kqIvwsZv8Gemwgn63fOMa4i4vrmiz_rKEobGgT4",
+  CALLBACK_TEMPLATE_ID: "dBfcC2rIXTDhycFS0u9MsAekZ8hsBrguI6qF-3I5vFA",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
