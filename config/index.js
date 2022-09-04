@@ -95,9 +95,6 @@ export const config = {
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
     {"keyword": "love_day", date: "2020-01-0-15"},
-    // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
-    // ... 
   ],
 
   /** 插槽 */
@@ -114,7 +111,8 @@ export const config = {
       "申请成为你爱里的永久居民。",
       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
       "遇见你，就好像捡到了100斤的运气",
-      ]},
+      ]
+    },
   ],
 
   /** 每日一言 */
