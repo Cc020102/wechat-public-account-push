@@ -76,7 +76,7 @@ export const config = {
   FESTIVALS: [
     {"type": "生日", "name": "欢欢子", "year": "2001", "date": "01-04"},
     {"type": "生日", "name": "然然子", "year": "2001", "date": "02-16"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2020", "date": "01-015"},
+    {"type": "节日", "name": "被搭讪纪念日", "year": "2020", "date": "01-15"},
   ],
 
   /**
@@ -94,7 +94,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2020-01-015"},
+    {"keyword": "love_day", date: "2020-01-0-15"},
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
     // ... 
@@ -108,14 +108,13 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
-    // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
+    {"keyword": "encourage_oneself", contents: [
+      "今天也是喜欢宝子的一天，记得想我。",
       "因为太喜欢你，所以看谁都像是情敌。",
       "申请成为你爱里的永久居民。",
       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
       "遇见你，就好像捡到了100斤的运气",
-    ]},
+      ]},
   ],
 
   /** 每日一言 */
